@@ -1,19 +1,10 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
- *  * print_numbers - prints nmubers from 0-9
- *   *
- *    * Return: 0
- *     */
-void print_numbers(void)
+ * Description: main - Prints out a string to stdout.
+ * Return: 0 if success.
+ */
+int main(void)
 {
-	char number[11] = "0123456789";
-	int i = 0;
-
-
-	for (i = 0; i < 10; i++)
-	{
-			_putchar(number[i]);
-		}
-	_putchar('\n');
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
